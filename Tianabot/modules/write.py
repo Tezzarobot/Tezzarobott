@@ -16,4 +16,4 @@ async def handwriting(_, message):
     hand = "https://apis.xditya.me/write?text=" + name
     await m.edit("Uᴩʟᴏᴀᴅɪɴɢ...")
     await pbot.send_chat_action(message.chat.id, "upload_photo")
-    await message.reply_photo(hand, caption="Wʀɪᴛᴛᴇɴ Wɪᴛʜ 🖊 Bʏ [ᴛᴇᴢᴢᴀ](t.me/Tiana_robot)")
+    await message.reply_photo(hand, caption="Wʀɪᴛᴛᴇɴ Wɪᴛʜ 🖊 Bʏ [ᴛᴇᴢᴢᴀ](t.me/Tezza_robot)")
