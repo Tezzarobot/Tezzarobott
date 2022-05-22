@@ -442,7 +442,7 @@ def set_about_me(update: Update, context: CallbackContext):
                     len(info[1]),
                 ),
             )
-
+@sudo_plus
 def stats(update: Update, context: CallbackContext):
     stats = "<b>╔═━「 Current Tiana's Statistics 」</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
     result = re.sub(r"(\d+)", r"<code>\1</code>", stats)
