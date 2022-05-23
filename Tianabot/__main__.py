@@ -699,14 +699,14 @@ Support
         )
     elif query.data == "tiana_source":
         query.message.edit_text(
-            text="""*Tezza is Now Open Source Bot Project.*
+            text="""*Tezza Update Channel.*
 
-*Click below Button to Get Source Code.*""",
+*Click below Button to Get Update Channel.*""",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="📄 𝙎𝙤𝙪𝙧𝙘𝙚", url="github.com/muhammedalthaf174/Tezzatiana"),                 
+                    InlineKeyboardButton(text="📄 𝙐𝙥𝙙𝙖𝙩𝙚𝙨", url="https://t.me/tezzasupportchannel"),                 
                     InlineKeyboardButton(text="🔙 𝘽𝙖𝙘𝙠", callback_data="about_"),
                  ]    
                 ]
@@ -737,7 +737,7 @@ def tiana_about_callback(update: Update, context: CallbackContext):
                [
                  [
                      InlineKeyboardButton(text="❗️ 𝘼𝙗𝙤𝙪𝙩", callback_data="tiana_about"),
-                     InlineKeyboardButton(text="📄 𝙎𝙤𝙪𝙧𝙘𝙚", callback_data="tiana_source"),
+                     InlineKeyboardButton(text="📄 𝙐𝙥𝙙𝙖𝙩𝙚𝙨", callback_data="tiana_source"),
                  ],
                  [  
                     InlineKeyboardButton(text="🫂 𝙎𝙪𝙥𝙥𝙤𝙧𝙩", callback_data="tiana_support"),
