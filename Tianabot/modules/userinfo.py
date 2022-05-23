@@ -355,7 +355,7 @@ def info(update: Update, context: CallbackContext):
                             InlineKeyboardButton(
                                 "Health", url="https://t.me/tezzabotlogs/396"),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/tezzabotlogs/397)
+                                "Disaster", url="https://t.me/tezzabotlogs/397")
                         ],
                     ]
                 ),
@@ -373,7 +373,8 @@ def info(update: Update, context: CallbackContext):
                             InlineKeyboardButton(
                                 "Health", url="https://t.me/tezzabotlogs/396"),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/tezzabotlogs/397")
+                                "Disaster", url="https://t.me/tezzabotlogs/397"),
+
                         ],
                     ]
                 ),
