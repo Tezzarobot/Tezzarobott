@@ -10,7 +10,7 @@
     <a href="https://t.me/TianaxSupport"> Support Chat </a> 
 </p>
     
-# Tiana Bot
+# Tezza Bot
 #### Tiana is a Telegram group managment bot made using Telethon and Pyrogram which makes it modern and faster than most of the exisitng Telegram Chat Managers.
 <p align="center"><img src="https://telegra.ph/file/fae3dd2a2c6e491e4893e.jpg"></p>
 
